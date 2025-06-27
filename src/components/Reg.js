@@ -85,7 +85,18 @@ const Reg = () => {
                     />
                 </div>
                 <div className="form-group">
-                <Button onClick={handleSubmit} style={{backgroundColor:'#9CA986',color:'white',marginLeft:'100px' ,borderRadius:'4px',padding:'8px'}} variant="primary"><a style={{textDecoration:'none',color:'white'}} href="/home"><b>Register</b></a></Button>
+<Button 
+  type="submit" 
+  style={{
+    backgroundColor: '#9CA986',
+    color: 'white',
+    marginLeft: '100px',
+    borderRadius: '4px',
+    padding: '8px'
+  }}
+>
+  <b>Register</b>
+</Button>
                 </div>
                 <Button style={{width:'250px' ,borderRadius:'4px',padding:'8px',backgroundColor:'white'}} ><Link style={{textDecoration:'none',color:'grey'}} to="/">Already have an account? Sign in</Link></Button>
             </form>
